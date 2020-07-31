@@ -59,49 +59,49 @@ for i in materias_array:
       artes = browser.find_elements_by_xpath('/html/body/div[4]/div[2]/div[1]/div[3]/div[2]/table[2]/tbody/tr[1]/td[1]/form/a')[0]
       artes.click()
     except:
-      print("error123")
+      print("error")
   elif i == 'biologia':
     time.sleep(1)
     try:
       biologia = browser.find_elements_by_xpath('/html/body/div[4]/div[2]/div[1]/div[3]/div[2]/table[2]/tbody/tr[3]/td[1]/form/a')[0]
       biologia.click()
     except:
-      print("error123")
+      print("error")
   elif i == 'cts':
     time.sleep(1)
     try:
       cts = browser.find_elements_by_xpath('/html/body/div[4]/div[2]/div[1]/div[3]/div[2]/table[2]/tbody/tr[5]/td[1]/form/a')[0]
       cts.click()
     except:
-      print("error123")
+      print("error")
   elif i == 'desenho':
     time.sleep(1)
     try:
       desenho = browser.find_elements_by_xpath('/html/body/div[4]/div[2]/div[2]/div[3]/div[2]/table[2]/tbody/tr[7]/td[1]/form/a')[0]
       desenho.click()
     except:
-      print("error123")
+      print("error")
   elif i == 'edf':
     time.sleep(1)
     try:
       edf = browser.find_elements_by_xpath('/html/body/div[4]/div[2]/div[1]/div[3]/div[2]/table[2]/tbody/tr[9]/td[1]/form/a')[0]
       edf.click()
     except:
-      print("error123")
+      print("error")
   elif i == 'eletrica':
     time.sleep(1)
     try:
       eletrica = browser.find_elements_by_xpath('/html/body/div[4]/div[2]/div[1]/div[3]/div[2]/table[2]/tbody/tr[11]/td[1]/form/a')[0]
       eletrica.click()
     except:
-      print("error123")
+      print("error")
   elif i == 'filosofia':
     time.sleep(1)
     try:
       filosofia =browser.find_elements_by_xpath('/html/body/div[4]/div[2]/div[1]/div[3]/div[2]/table[2]/tbody/tr[13]/td[1]/form/a')[0]
       filosofia.click()
     except:
-      print("error123")
+      print("error")
   elif i == 'fisica':
     time.sleep(1)
     try:
@@ -115,21 +115,21 @@ for i in materias_array:
       geografia = browser.find_elements_by_xpath('/html/body/div[4]/div[2]/div[1]/div[3]/div[2]/table[2]/tbody/tr[17]/td[1]/form/a')[0]
       geografia.click()
     except:
-      print("error123")
+      print("error")
   elif i == 'historia':
     time.sleep(1)
     try:
       historia = browser.find_elements_by_xpath('/html/body/div[4]/div[2]/div[1]/div[3]/div[2]/table[2]/tbody/tr[19]/td[1]/form/a')[0]
       historia.click()
     except:
-      print("error123")
+      print("error")
   elif i == 'ingles':
     time.sleep(1)
     try:
       ingles = browser.find_elements_by_xpath('/html/body/div[4]/div[2]/div[1]/div[3]/div[2]/table[2]/tbody/tr[21]/td[1]/form/a')[0]
       ingles.click()
     except:
-      print("error123")
+      print("error")
   elif i == 'portugues':
     time.sleep(1)
     try:
@@ -143,14 +143,14 @@ for i in materias_array:
       matematica = browser.find_elements_by_xpath('/html/body/div[4]/div[2]/div[1]/div[3]/div[2]/table[2]/tbody/tr[25]/td[1]/form/a')[0]
       matematica.click()
     except:
-      print("error123")
+      print("error")
   elif i == 'metrologia':
     time.sleep(1)
     try:
       metrologia = browser.find_elements_by_xpath('/html/body/div[4]/div[2]/div[1]/div[3]/div[2]/table[2]/tbody/tr[27]/td[1]/form/a')[0]
       metrologia.click()
     except:
-      print("error123")
+      print("error")
   elif i == 'qualidade':
     time.sleep(1)
     try:
@@ -158,28 +158,28 @@ for i in materias_array:
       qualidade.click()
       time.sleep(1)
     except:
-      print("error123")
+      print("error")
   elif i == 'quimica':
     time.sleep(1)
     try:
       quimica = browser.find_elements_by_xpath('/html/body/div[4]/div[2]/div[1]/div[3]/div[2]/table[2]/tbody/tr[31]/td[1]/form/a')[0]
       quimica.click()
     except:
-      print("error123")
+      print("error")
   elif i == 'sociologia':
     time.sleep(1)
     try:
       sociologia = browser.find_elements_by_xpath('/html/body/div[4]/div[2]/div[1]/div[3]/div[2]/table[2]/tbody/tr[33]/td[1]/form/a')[0]
       sociologia.click()
     except:
-      print("error123")
+      print("error")
   elif i == 'usinagem':
     time.sleep(1)
     try:
       usinagem = browser.find_elements_by_xpath('/html/body/div[4]/div[2]/div[1]/div[3]/div[2]/table[2]/tbody/tr[35]/td[1]/form/a')[0]
       usinagem.click()
     except:
-      print("error123")
+      print("error")
   else:
     print("error")
   try:
@@ -189,7 +189,7 @@ for i in materias_array:
   try:
     browser.find_elements_by_xpath('/html/body/div[1]/form/div/div/div[2]/div[3]/table/tbody/tr/td/a[3]')[0].click()
   except:
-    print("178")
+    print("error")
   print("ver notas")
   
   time.sleep(3)
